@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section{
+    padding-top: 4%;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem
+}
+#inputColor{
+    width: 100%;
+    height: 35px;
+    padding: 0.5px, 0.5px;
+    margin: 0.9em 0rem;
+    background-color: white;
+    border: 0.1px gray solid;
+    border-radius: 2px;
+    
+}
+#inputBtn{
+    width: 100%;
+    padding: 0.5rem 0rem;
+    background-color: #0d6efd;
+    color: white;
+    box-shadow: none;
+    border: none;
+    border-radius: 3px;
+}
+#inputBtn:hover{
+    background-color: #0B60DB;
+    cursor: pointer;
+}
+#inputBtn:active{
+    border: 1.5px solid 
+}
+#cardColor{
+    width: 100%;
+    height: 90px;
+    background-color: #563d7c;
+    border-radius: 5px;
+}
